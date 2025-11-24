@@ -19,6 +19,7 @@
             <li><a class="dropdown-item" href="hunk125R.php">hunk125R</a></li>      
             <li><a class="dropdown-item" href="hunk150.php">hunk150</a></li>
             <li><a class="dropdown-item" href="hunk160R.php">hunk160R</a></li>
+            <li><a class="dropdown-item" href="xpulse.php">xpulse</a></li>
           </ul>
         </li>
       </ul>

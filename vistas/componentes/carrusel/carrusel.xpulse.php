@@ -4,13 +4,13 @@
             <div class="row align-items-center g-3">
                 <div class="col-md-5 col-12 text-white ps-md-5 ps-3 text-section-left">
                     <span class="badge border rounded-pill px-3 py-2 mb-3">DISEÑO DEPORTIVO</span>
-                    <h1 class="display-3 fw-bold">Hunk 150</h1>
+                    <h1 class="display-3 fw-bold">XPULSE</h1>
                     <p class="fs-4">¡Va con tu estilo!</p>
                 </div>
                 <div class="col-md-5 col-12 text-center position-relative moto-section">
-                    <img src="vistas/assets/img/hunk150/colores/hunk150negraRoja.png" 
+                    <img src="vistas/assets/img/xpulse/colores/xpulse_blanco.png"
                          class="img-fluid moto-img" 
-                         alt="Hunk 125R">
+                         alt="xpulse">
                 </div>
                 <div class="col-md-2 col-12 text-white text-md-end text-center pe-md-5 text-section-right">
                     <p class="mb-1">Motor</p>
@@ -19,17 +19,17 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item ">
             <div class="row align-items-center g-3">
                 <div class="col-md-5 col-12 text-white ps-md-5 ps-3 text-section-left">
                     <span class="badge border rounded-pill px-3 py-2 mb-3">DISEÑO DEPORTIVO</span>
-                    <h1 class="display-3 fw-bold">Hunk 150</h1>
+                    <h1 class="display-3 fw-bold">XPULSE</h1>
                     <p class="fs-4">¡Va con tu estilo!</p>
                 </div>
                 <div class="col-md-5 col-12 text-center position-relative moto-section">
-                    <img src="vistas/assets/img/hunk150/colores/hunk150negraVerde.png"  
+                    <img src="vistas/assets/img/xpulse/colores/xpulse_azul_negro.png"
                          class="img-fluid moto-img" 
-                         alt="Hunk 125R">
+                         alt="xpulse">
                 </div>
                 <div class="col-md-2 col-12 text-white text-md-end text-center pe-md-5 text-section-right">
                     <p class="mb-1">Motor</p>
@@ -38,17 +38,17 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item ">
             <div class="row align-items-center g-3">
                 <div class="col-md-5 col-12 text-white ps-md-5 ps-3 text-section-left">
                     <span class="badge border rounded-pill px-3 py-2 mb-3">DISEÑO DEPORTIVO</span>
-                    <h1 class="display-3 fw-bold">Hunk 150</h1>
+                    <h1 class="display-3 fw-bold">XPULSE</h1>
                     <p class="fs-4">¡Va con tu estilo!</p>
                 </div>
                 <div class="col-md-5 col-12 text-center position-relative moto-section">
-                    <img src="vistas/assets/img/hunk150/colores/hunk150RojaBlanco.png"  
+                    <img src="vistas/assets/img/xpulse/colores/xpulse_negro_rojo.png"
                          class="img-fluid moto-img" 
-                         alt="Hunk 125R">
+                         alt="xpulse">
                 </div>
                 <div class="col-md-2 col-12 text-white text-md-end text-center pe-md-5 text-section-right">
                     <p class="mb-1">Motor</p>
@@ -57,6 +57,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
     
     <!-- Controles personalizados en la parte inferior derecha -->
