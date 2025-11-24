@@ -3,6 +3,9 @@
 <link rel="stylesheet" href="vistas/assets/css/style/style.carrusel.button.css">
 <link rel="stylesheet" href="vistas/assets/css/style/style.360.css">
 <link rel="stylesheet" href="vistas/assets/css/style/style.text.css">
+
+
+
 <!--Funciones personalizadas-->
 <script src="vistas/assets/js/script/script.360.js"></script>
 
@@ -13,4 +16,6 @@
 <script src="vistas/assets/js/bootstrap.bundle.min.js"></script>
 
 
- 
+<!--Estilos personalizados 2do orden de carga-->
+<link rel="stylesheet" href="vistas/assets/css/style/style.categorias.css">
+<script src="vistas/assets/js/script/script.categorias.js"></script>
