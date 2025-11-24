@@ -1,0 +1,117 @@
+
+    .carousel-control-custom {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: auto;
+        opacity: 1;
+        z-index: 15;
+    }
+    
+    .carousel-control-custom .btn-control {
+        width: 50px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 2px solid white;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    
+    .carousel-control-custom .btn-control:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+    
+    .carousel-control-custom .btn-control .carousel-control-prev-icon,
+    .carousel-control-custom .btn-control .carousel-control-next-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Estilos para la imagen de la moto */
+    .moto-img {
+        max-width: 600px;
+        position: relative;
+        z-index: 10;
+        transform: scale(1.2);
+    }
+
+    /* Media query para tablets y móviles */
+    @media (max-width: 768px) {
+        .carousel-inner {
+            overflow: hidden !important;
+            padding: 20px 0 30px 0 !important;
+        }
+
+        #carouselExampleAutoplaying {
+            overflow: hidden !important;
+        }
+
+        .moto-img {
+            transform: scale(1) !important;
+            max-width: 100% !important;
+        }
+
+        .carousel-control-custom {
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .carousel-control-custom .btn-control {
+            width: 40px;
+            height: 40px;
+        }
+
+        /* Cambiar orden en móvil: primero moto, luego textos */
+        .text-section-left {
+            order: 2 !important;
+        }
+
+        .text-section-right {
+            order: 3 !important;
+        }
+
+        .moto-section {
+            order: 1 !important;
+            margin-bottom: 20px;
+        }
+
+        /* Ajustar textos en móvil */
+        .display-3 {
+            font-size: 2.5rem !important;
+        }
+
+        .display-4 {
+            font-size: 2rem !important;
+        }
+
+        /* Centrar textos en móvil */
+        .text-section-left,
+        .text-section-right {
+            text-align: center !important;
+            padding: 0 20px !important;
+        }
+    }
+
+    /* Media query para móviles pequeños */
+    @media (max-width: 576px) {
+        .carousel-inner {
+            padding: 15px 0 20px 0 !important;
+        }
+
+        .display-3 {
+            font-size: 2rem !important;
+        }
+
+        .fs-4 {
+            font-size: 1rem !important;
+        }
+
+        .moto-section {
+            margin-bottom: 15px;
+        }
+    }

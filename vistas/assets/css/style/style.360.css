@@ -1,0 +1,9 @@
+
+            @keyframes spin {
+                to { transform: rotate(360deg); }
+            }
+            
+            #viewer360:active {
+                cursor: grabbing;
+            }
+        
