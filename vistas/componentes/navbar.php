@@ -34,10 +34,10 @@
               <div class="col-6">
                 <!-- Modelos de TRABAJO -->
                 <div class="modelos-grupo" id="trabajo">
-                  <a class="dropdown-item" href="#">ECO DELUXE</a>
-                  <a class="dropdown-item" href="#">ECO </a>
+                  <a class="dropdown-item" href="eco_deluxe.php">ECO DELUXE</a>
+                  <a class="dropdown-item" href="eco.php">ECO </a>
                 </div>
-                
+
                 <!-- Modelos de URBANAS -->
                 <div class="modelos-grupo" id="urbanas" style="display: none;">
                   <a class="dropdown-item" href="hunk125R.php">HUNK 125R</a>
