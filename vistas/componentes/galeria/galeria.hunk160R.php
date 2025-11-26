@@ -1,5 +1,5 @@
 <div class="container">
-<!--caracteristica 1-->
+<!--info general-->
         <div class="row p-5">
             <div class="col-lg-6 col-md-12 pt-5">
                 <h1 class="display-6 fw-bold" >Diseño <span style="color:red">robusto y compacto, </span></h1>
@@ -14,26 +14,64 @@
                 <img src="vistas/assets/img/hunk160R/caracteristicas/hunk160rInfo.jpg" class="img-fluid" alt="Hunk 160R">
             </div>
         </div>
-<!--caracteristica 2-->
-        <div class="row p-3">
-            <div class="col-lg-6 col-md-12 p-2">
-                <img src="vistas/assets/img/hunk160R/caracteristicas/asientoHunk160r.jpg" class="img-fluid" alt="Asiento Hunk 160R">
+ <div class="row">
+        <!-- Columna 1: asiento antideslizante-->
+        <div class="col-lg-6 col-md-12 p-lg-5 p-2">
+            <div style="position: relative; padding: 0; overflow: hidden;">
+                <!-- Imagen para desktop -->
+                <img src="vistas/assets/img/hunk160R/caracteristicas/asientoHunk160r.jpg" 
+                    class="d-none d-md-block" 
+                    style="width: 100%; height: 500px; object-fit: cover; object-position: center;" 
+                    alt="Asiento antideslizante">
+                
+                <!-- Imagen para móviles -->
+                <img src="vistas/assets/img/hunk160R/caracteristicas/asientoHunk160r.jpg"
+                    class="d-block d-md-none" 
+                    style="width: 100%; height: 350px; object-fit: cover; object-position: center;" 
+                    alt="Asiento antideslizante">
+                
+                <!-- Texto sobre imagen en desktop -->
+                <div class="d-none d-md-block" style="position: absolute; bottom: 30px; left: 30px; color: white; z-index: 10; max-width: 90%;">
+                    <h2 class="fw-bold" style="font-size: 2.5rem; margin-bottom: 10px;">Asiento deportivo de  <span style="color:red">doble nivel</span></h2>
+                    <p style="font-size: 1rem;">Con superficie antideslizante que brinda mayor comodidad al piloto y su acompañante.</p>
+                </div>
             </div>
-            <div class="col-lg-6 col-md-12 pt-5">
-                <h1 class="display-6 fw-bold" >Asiento deportivo de <span style="color:red">doble nivel </span></h1> 
-                <p class="fs-5 pt-2">Con superficie antideslizante que brinda mayor comodidad al piloto y su acompañante.</p>
+            
+            <!-- Contenedor de texto para móviles (debajo de la imagen) -->
+            <div class="d-block d-md-none" style="background-color: #1a1a1a; padding: 20px 15px; color: white;">
+                <h3 class="fw-bold" style="font-size: 1.5rem; margin-bottom: 10px;">Asiento deportivo de  <span style="color:red">doble nivel</span></h3>
+                <p style="font-size: 0.9rem; margin-bottom: 0;">Con superficie antideslizante que brinda mayor comodidad al piloto y su acompañante.</p>
             </div>
         </div>
-<!--caracteristica 3-->
-        <div class="row p-3">
-            <div class="col-lg-6 col-md-12 pt-5">
-                <h1 class="display-6 fw-bold" >Tablero <span style="color:red"> digital</span></h1>
-                <p class="fs-5 pt-2">Esta motocicleta cuenta con un tablero 100% digital con iluminación invertida e indicador de marcha.</p>
+        <!-- Columna 2: tablero digital-->
+        <div class="col-lg-6 col-md-12 p-lg-5 p-2">
+            <div style="position: relative; padding: 0; overflow: hidden;">
+                <!-- Imagen para desktop -->
+                <img  src="vistas/assets/img/hunk160R/caracteristicas/tableroHunk160r.jpg" 
+                    class="d-none d-md-block" 
+                    style="width: 100%; height: 500px; object-fit: cover; object-position: center;" 
+                    alt="Frenos de disco">
+                
+                <!-- Imagen para móviles -->
+                <img src="vistas/assets/img/hunk160R/caracteristicas/tableroHunk160r.jpg" 
+                    class="d-block d-md-none" 
+                    style="width: 100%; height: 350px; object-fit: cover; object-position: center;" 
+                    alt="Frenos de disco">
+                
+                <!-- Texto sobre imagen en desktop -->
+                <div class="d-none d-md-block" style="position: absolute; bottom: 30px; left: 30px; color: white; z-index: 10; max-width: 90%;">
+                    <h2 class="fw-bold" style="font-size: 2.5rem; margin-bottom: 10px;">Tablero<span style="color:red">digital</span></h2>
+                    <p style="font-size: 1rem;">Esta motocicleta cuenta con un tablero 100% digital con iluminación invertida e indicador de marcha.</p>
+                </div>
             </div>
-            <div class="col-lg-6 col-md-12 p-2">
-                <img src="vistas/assets/img/hunk160R/caracteristicas/tableroHunk160r.jpg" class="img-fluid" alt="Tablero Hunk 160R">
+            
+            <!-- Contenedor de texto para móviles (debajo de la imagen) -->
+            <div class="d-block d-md-none" style="background-color: #1a1a1a; padding: 20px 15px; color: white;">
+                <h3 class="fw-bold" style="font-size: 1.5rem; margin-bottom: 10px;">Tablero <span style="color:red"> digital</span></h3>
+                <p style="font-size: 0.9rem; margin-bottom: 0;">Esta motocicleta cuenta con un tablero 100% digital con iluminación invertida e indicador de marcha.</p>
             </div>
         </div>
+    </div>
 </div>
 
 
