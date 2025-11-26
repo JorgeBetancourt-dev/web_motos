@@ -14,9 +14,11 @@
         include "vistas/componentes/carrusel/carrusel.hunk160R.php";
         
     ?>
-    <div class="container">
-        
-    </div>
+    
+        <?php
+            include "vistas/componentes/galeria/galeria.hunk160R.php";
+        ?>
+    
 </body>
 </html>
 
