@@ -14,7 +14,7 @@
                 <img src="vistas/assets/img/hunk160R/caracteristicas/hunk160rInfo.jpg" class="img-fluid" alt="Hunk 160R">
             </div>
         </div>
- <div class="row">
+   <div class="row">
         <!-- Columna 1: asiento antideslizante-->
         <div class="col-lg-6 col-md-12 p-lg-5 p-2">
             <div style="position: relative; padding: 0; overflow: hidden;">

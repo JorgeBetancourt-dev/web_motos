@@ -12,10 +12,8 @@
     <?php
         include "vistas/componentes/navbar.php";
         include "vistas/componentes/carrusel/carrusel.hunk150.php";
+        include "vistas/componentes/galeria/galeria.hunk150.php";
     ?>
-    <div class="container">
-        
-    </div>
 </body>
 </html>
 
